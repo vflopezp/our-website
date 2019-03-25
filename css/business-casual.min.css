@@ -26,7 +26,8 @@ p {
 }
 
 .container-fluid{
-  width: 97%;
+  position:relative;
+  width: 100%;
 }
 
 .text-faded {
@@ -321,17 +322,12 @@ button:hover{
   margin-top: 40px;
 }
 
-.tweets{
-	position:relative;
-	left:475px;
-	top:00px;
-}
-
 .tweets2{
 	position:relative;
 	left:0px;
-	top:30px;
+	top:180px;
 	float: right;
+  width: 30%;
 }
 
 .sideinfo{
@@ -399,6 +395,28 @@ button:hover{
   margin-right: auto;
   margin-top:auto;
   border-radius: 50%;
-  width: 20%;
-  height: 30%;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.resp-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.resp-img{
+  width: 100%;
+  max-width: 800px;
+  height: auto;
 }
